@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header contact gallery">
+        <div class="logo">Villa Huzur</div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="index.html">HOME</a></li>
+            <li class="menu__item">
+              <a class="menu__link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="wrapper contact">
+        <h2 class="heading_2">Contact Us</h2>
+        <p class="contact__paragraph">
+          Please note that during the high season (May - September) all bookings
+          are weekly and run from Monday to Monday.<br /><br />
+
+          Outside of the peak months we can be more flexible.<br /><br />
+
+          For availability, please leave your details using the below form and
+          we will get in touch with you soon.
+        </p>
+        <form action="#" method="POST">
+          <div class="form__wrapper">
+            <label for="name">name *</label>
+            <div class="input__name">
+              <input
+                type="text"
+                id="name"
+                class="name__first"
+                name="user_name"
+                required
+              />
+
+              <input
+                type="text"
+                id="name"
+                class="name__last"
+                name="user_name"
+                required
+              />
+            </div>
+            <div class="name__wrapper">
+              <div class="first p"><p>First name</p></div>
+              <div class="first"><p>Last name</p></div>
+            </div>
+
+            <label for="mail">Email Address *</label>
+            <input
+              class="email"
+              type="email"
+              id="mail"
+              name="user_mail"
+              required
+            />
+            <label for="tel">Phone Number</label>
+            <input class="tel" type="tel" id="tel" name="user_tel" />
+            <p class="check">Desired Check-In Date</p>
+            <div class="date__in">
+              <div class="date-d">
+                <input
+                  type="text"
+                  size="2"
+                  maxlength="2"
+                  min="1"
+                  max="31"
+                  class="check-in"
+                  id="check-in-d"
+                  name="user_in-d"
+                />
+                <p>DD</p>
+              </div>
+              <div class="date-m">
+                <input
+                  type="text"
+                  size="2"
+                  maxlength="2"
+                  min="1"
+                  max="31"
+                  class="check-in"
+                  id="check-in-m"
+                  name="user_in-m"
+                />
+                <p>MM</p>
+              </div>
+              <div class="date-y">
+                <input
+                  type="text"
+                  size="4"
+                  maxlength="4"
+                  class="check-in y"
+                  id="check-in-y"
+                  name="user_in-y"
+                />
+                <p>YYYY</p>
+              </div>
+            </div>
+            <p class="check">Desired Check-Out Date</p>
+            <div class="date__out">
+              <div class="date-d">
+                <input
+                  type="text"
+                  size="2"
+                  maxlength="2"
+                  min="1"
+                  max="31"
+                  class="check-out"
+                  id="check-out-d"
+                  name="user_out-d"
+                />
+                <p>DD</p>
+              </div>
+              <div class="date-m">
+                <input
+                  type="text"
+                  size="2"
+                  maxlength="2"
+                  min="1"
+                  max="31"
+                  class="check-out"
+                  id="check-out-m"
+                  name="user_out-m"
+                />
+                <p>MM</p>
+              </div>
+              <div class="date-y">
+                <input
+                  type="text"
+                  size="4"
+                  maxlength="4"
+                  class="check-out y"
+                  id="check-out-y"
+                  name="user_out-y"
+                />
+                <p>YYYY</p>
+              </div>
+            </div>
+            <p class="msg">Message</p>
+            <textarea
+              rows="4"
+              cols="50"
+              name="message"
+              class="message"
+            ></textarea>
+            <input name="submit" class="submit" type="submit" value="SUBMIT" />
+          </div>
+        </form>
+      </div>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
